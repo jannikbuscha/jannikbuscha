@@ -1,0 +1,77 @@
+{
+  "workbench.colorTheme": "1mm - Dracula",
+  "window.zoomLevel": 1,
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.lineHeight": 16,
+  "editor.fontSize": 13,
+  "editor.fontLigatures": "'zero'",
+  "editor.renderWhitespace": "all",
+  "editor.folding": false,
+  "editor.minimap.enabled": false,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.openEditors.visible": 1,
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.tabSizing": "shrink",
+  "window.doubleClickIconToClose": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.colorCustomizations": {},
+  "editor.inlineSuggest.enabled": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDelete": false,
+  "editor.accessibilitySupport": "off",
+  "indentRainbow.indicatorStyle": "light",
+  "terminal.integrated.env.windows": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[tex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "%DOC%"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "command": "pdflatex",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": [
+        "latexmk"
+      ]
+    },
+    {
+      "name": "pdflatex",
+      "tools": [
+        "pdflatex"
+      ]
+    }
+  ],
+  "terminal.integrated.fontFamily": "JetBrainsMono NF",
+  "cSpell.language": "en,de",
+  "files.eol": "\n"
+}

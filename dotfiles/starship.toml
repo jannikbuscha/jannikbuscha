@@ -1,0 +1,35 @@
+format = """
+[](#21222C)\
+$directory\
+[](fg:#21222C bg:#FF92DF)\
+$git_branch\
+$git_status\
+[ ](fg:#FF92DF)\
+"""
+
+# Disable the blank line at the start of the prompt
+# add_newline = false
+
+[directory]
+style = "bg:#21222C"
+format = "[ $path ]($style)"
+home_symbol = " ~"
+truncation_length = 3
+truncation_symbol = "…/"
+
+# Here is how you can shorten some long paths by text replacement
+# similar to mapped_locations in Oh My Posh:
+[directory.substitutions]
+"Documents" = " "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+style = "bg:#FF92DF"
+format = '[ $symbol $branch ]($style)'
+
+[git_status]
+style = "bg:#FF92DF"
+format = '[$all_status$ahead_behind ]($style)'
